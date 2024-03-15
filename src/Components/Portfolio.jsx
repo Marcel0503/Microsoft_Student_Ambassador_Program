@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/aiHead.webp";
+import image from "../images/aiHead.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -38,8 +38,7 @@ const projectList = [
   },
   {
     title: "Customer Support AI",
-    description:
-      "Working on an AI-based system to automate customer support using AutoGPT.",
+    description: "Working on an AI-based system to automate customer support using AutoGPT.",
     url: "https://autogpt.net/",
   },
 ];
@@ -50,9 +49,9 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
+          <img 
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "10s ease-out 0s 1 slideInLeft" }}
             alt={imageAltText}
           />
         </div>
